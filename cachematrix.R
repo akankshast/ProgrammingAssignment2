@@ -48,8 +48,7 @@ cacheSolve <- function(x, ...) {
   
   # 'cacheSolve'
   # return the inverse of a given matrix utilizing the cache
-  #---------------------------------------------------------
-  
+ 
   # 1. check the content of cache matrix
   
   cacheMatrix <- x$getCache()
@@ -69,6 +68,5 @@ cacheSolve <- function(x, ...) {
     x$setCache(cacheMatrix)
     return(cacheMatrix)
   }
-  #---------------------------------------------------------
-  
+ 
 }
